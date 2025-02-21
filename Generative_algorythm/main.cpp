@@ -38,6 +38,24 @@ void show_matrix(float** arr, int rows, int columns);
 
 void show_list(float* arr, int size);
 
+class selection_method
+{
+private:
+    /* data */
+public:
+    selection_method(/* args */);
+    ~selection_method();
+};
+
+selection_method::selection_method(/* args */)
+{
+}
+
+selection_method::~selection_method()
+{
+}
+
+
 int main() {
     srand(time(0));
     
